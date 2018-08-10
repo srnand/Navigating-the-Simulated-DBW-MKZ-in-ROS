@@ -1,0 +1,4 @@
+<launch>
+<node pkg="deadmansswitch" name="cmdvel2gazebo" type="cmdvel2gazebo.py" output="screen"/>
+<node pkg="deadmansswitch" name="obstacle_stopper" type="obstacle_stopper.py" output="screen"/>
+</launch>

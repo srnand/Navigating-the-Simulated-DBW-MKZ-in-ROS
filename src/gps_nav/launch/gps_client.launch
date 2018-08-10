@@ -1,0 +1,3 @@
+<launch>
+<node pkg="gps_nav" name="move_to_waypoint_c" type="gps_action_client.py" output="screen"/>
+</launch>

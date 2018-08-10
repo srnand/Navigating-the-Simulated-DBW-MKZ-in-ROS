@@ -1,0 +1,4 @@
+<launch>
+<node pkg="gps_nav" name="gps_subscriber" type="gps_subscriber.py" output="screen"/>
+<node pkg="gps_nav" name="move_to_waypoint" type="gps_action_server.py" output="screen"/>
+</launch>
